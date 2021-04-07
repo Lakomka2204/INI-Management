@@ -35,6 +35,9 @@
   <PropertyGroup>
     <StartupObject>ININ.Test.Test</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ini.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ini.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
