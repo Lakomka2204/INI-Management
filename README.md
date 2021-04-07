@@ -30,3 +30,4 @@ if (ini.SectionExists("appsettings"))
     LoadSettings(ini);
 ```
 ##### That's pretty much everything you need for managing ini files.
+##### If you encounter any issues, please [report](https://github.com/Lakomka2204/INI-Management/issues)
